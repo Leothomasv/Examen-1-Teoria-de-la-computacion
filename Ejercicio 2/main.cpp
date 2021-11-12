@@ -48,10 +48,10 @@ void imprimirMatrix() {
 
 void jugar(int j1, int j2) {
 
-    if (matrix[j1][j2] == 'W') {
+    if (matrix[j2][j1] == 'W') {
         cout << "Jugador 1 GANA!!!!!" << endl;
     }
-    else if (matrix[j1][j2] == 'L') {
+    else if (matrix[j2][j1] == 'L') {
         cout << "Jugador 2 GANA!!!!!" << endl;
     }
     else {
