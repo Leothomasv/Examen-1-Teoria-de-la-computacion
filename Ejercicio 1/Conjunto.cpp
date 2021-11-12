@@ -52,7 +52,7 @@ Conjunto::~Conjunto() {
 	 string nombreArch, txt;
 	 txt = ".txt";
 
-	 cout << "Ingrese opcion: \n1.Ingresar datos MANUAL  \n2.Ingresar datos por ARHCIVO. \nOpcion: ";
+	 cout << "1.Ingresar datos MANUAL  \n2.Ingresar datos por ARHCIVO. \nOpcion: ";
 	 cin >> opc;
 
 	 if (opc == 1) {
